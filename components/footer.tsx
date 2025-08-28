@@ -10,12 +10,8 @@ export const Footer = () => {
       <Link target="_blank" className={buttonVariants({ size: "icon-xl" })} href={socialLinks.instagram}>
         <InstagramLogoIcon className="size-6" />
       </Link>
-      <Link target="_blank" className={buttonVariants({ size: "icon-xl" })} href={socialLinks.x}>
-        <XLogoIcon className="size-6" />
-      </Link>
-      <Link target="_blank" className={buttonVariants({ size: "icon-xl" })} href={socialLinks.github}>
-        <GitHubLogoIcon className="size-6" />
-      </Link>
+      
+      
     </div>
   );
 };

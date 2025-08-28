@@ -27,16 +27,6 @@ const instrumentSerif = Instrument_Serif({
 
 const isV0 = process.env["VERCEL_URL"]?.includes("vusercontent.net") ?? false
 
-export const metadata: Metadata = {
-  title: {
-    template: "%s | BookWeekly®",
-    default: "BookWeekly®",
-  },
-  description:
-    "Discover your next favorite read! Every week, we deliver a carefully curated epub book directly to your inbox. From bestsellers to hidden gems across all genres.",
-    generator: 'v0.app'
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{

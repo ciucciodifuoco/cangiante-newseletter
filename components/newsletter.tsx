@@ -51,7 +51,7 @@ export const Newsletter = () => {
     <div className="flex overflow-hidden relative flex-col gap-4 justify-center items-center pt-10 w-full h-full short:lg:pt-10 pb-footer-safe-area 2xl:pt-footer-safe-area px-sides short:lg:gap-4 lg:gap-8">
       <motion.div layout="position" transition={{ duration: DURATION, ease: EASE_OUT }}>
         <h1 className="font-serif text-5xl italic short:lg:text-8xl sm:text-8xl lg:text-9xl text-foreground">
-          BookWeekly®
+          Cangiante<sup className="text-2xl short:lg:text-4xl sm:text-4xl lg:text-5xl">®</sup>
         </h1>
       </motion.div>
 
@@ -79,7 +79,7 @@ export const Newsletter = () => {
                 exit: {
                   y: -150,
                   scale: 0.9,
-                  transition: { duration: DURATION, ease: EASE_OUT },
+                  transition: { duration: DURATION, ease: EASE_OUT_OPACITY },
                 },
               }}
             >
@@ -219,7 +219,7 @@ export const Newsletter = () => {
               <article className="relative overflow-y-auto italic p-6 h-full [&_p]:my-4">
                 <p>
                   &quot;In a world overflowing with content, finding your next great read shouldn't be a challenge.
-                  BookWeekly was born from a simple belief: every reader deserves access to exceptional literature,
+                  Cangiante was born from a simple belief: every reader deserves access to exceptional literature,
                   delivered with care and curation.
                 </p>
                 <p>
@@ -239,7 +239,7 @@ export const Newsletter = () => {
                   imagination, and connect us to the broader human experience.
                 </p>
                 <p>
-                  Join thousands of readers who trust BookWeekly to curate their next literary adventure. Your perfect
+                  Join thousands of readers who trust Cangiante to curate their next literary adventure. Your perfect
                   book is just one week away.&quot;
                 </p>
               </article>
